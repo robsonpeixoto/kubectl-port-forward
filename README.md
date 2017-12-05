@@ -17,5 +17,7 @@ services:
 
 # TODO
 
-[] Validate all inputs
-[] Better documentation
+- Validate all inputs
+- Better documentation
+- Add automatic build solution
+- Add multiple kubectl version support
