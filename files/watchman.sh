@@ -1,5 +1,8 @@
 #!/bin/sh
 
+echo 'WATCHMAN: waiting 60s before start'
+sleep 60s
+
 while true; do
     POD=`cat /scripts/pids/POD`
     if [ ! -z "$POD" ]; then
