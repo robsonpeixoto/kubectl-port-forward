@@ -4,9 +4,9 @@
 services:
   backend:
     command:
-    - product=manhattan
-    - 4000
-    - 5000:4000
+      - "label=value,label2=value2"
+      - "4000"
+      - "5000:4000"
     image: robsonpeixoto/kubectl-port-forward:1.7.6
     volumes:
       - $HOME/.kube:/root/.kube
