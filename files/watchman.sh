@@ -14,6 +14,6 @@ while true; do
             supervisorctl status | awk '$1 !~ /watchman/ {print $1}' | xargs supervisorctl restart
         fi
     fi
-    echo 'WATCHMAN: repeate the process in 60s'
+    echo 'WATCHMAN: repeat the process in 60s'
     sleep 60
 done
