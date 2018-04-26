@@ -15,6 +15,8 @@ services:
       - "5000:5000"
 ```
 
+Some Kubernetes auth providers store a `cmd-path` property in the `~/.kube/config`. Make sure this path is available inside the container, either by creating the appropriate volumes or editing the config.
+
 # TODO
 
 - Validate all inputs
